@@ -1,0 +1,341 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact Us",
+    "vision": "Vision 2030"
+  },
+  "ServicesItems": {
+    "laser": "Metal Laser Cutting",
+    "fabrication": "Steel Fabrication",
+    "bending": "Metal Bending",
+    "event": "Event Production",
+    "wood": "Wood Joinery & Carpentry"
+  },
+  "Hero": {
+    "title": "World Leading Steel Company in KSA",
+    "vision_support": "Supporting Vision 2030 Through",
+    "steel_innovation": "Steel Innovation",
+    "button": "Get Free Quote",
+    "form_name": "Name",
+    "form_name_placeholder": "Your Name",
+    "form_service": "Service",
+    "form_service_choose": "Choose Service",
+    "form_contact": "Contact Me",
+    "form_contact_placeholder": "Contact Number"
+  },
+"AboutPage": {
+    "storyTitle": "Our Story",
+    "storyDescription": "Founded with a vision to support the Kingdom's industrial growth, 24 Seven Group has become a trusted partner for major projects across KSA, UAE, and beyond. We specialize in precision metal laser cutting, bending, and custom steel fabrication.",
+    "check1": "Unmatched Precision with CNC Technology",
+    "check2": "Committed to Saudi Vision 2030",
+    "check3": "Global Standards, Local Expertise",
+    "check4": "Fast Turnaround & Quality Reliability",
+    "visionTitle": "Our Commitment to Vision 2030",
+    "visionPara1": "Saudi Vision 2030 is reshaping the Kingdom's economy, infrastructure, and industries. At 24 Seven Steel Production, we align our capabilities with this national transformation by providing high-quality steel solutions that support large-scale development.",
+    "visionPara2": "We deliver precision-engineered steel products essential for creating the modern cities, industries, and infrastructure that Vision 2030 demands.",
+    "globalTitle": "Our Global Presence",
+    "countryKSA": "KSA",
+    "countryUAE": "UAE",
+    "countryUSA": "USA",
+    "countrySpain": "Spain"
+  },
+    "WhoWeAre": {
+    "badge": "All Kinds of Metal Laser Cutting, Steel Fabrication and Event Production",
+    "title": "Who we are",
+    "para1": "To become one of the leading steel fabrication companies in KSA, providing <interior>Total Interior Solutions</interior> with consumer satisfaction.",
+    "para2": "At <brand>24 Seven Group</brand>, we deliver high-quality steel solutions."
+  },
+  "ReliableServices": {
+    "badge": "Delivering Quality, Reliability, and Precision",
+    "mainTitle": "Reliable Steel Services",
+    "viewMore": "View More",
+    "laserDesc": "At 24 Seven Group, we offer high-precision metal laser cutting services using advanced CNC laser technology.",
+    "fabricationDesc": "24 Seven Group specializes in high-quality steel fabrication services for a wide range of sectors including construction, industrial, commercial, and residential projects.",
+    "bendingDesc": "A metal bending machine is an essential piece of equipment used in metalworking to bend and shape metal sheets, bars, or pipes into desired angles and forms.",
+    "eventDesc": "At 24 Seven Group, we provide end-to-end events production solutions that bring creativity, structure, and precision to every event.",
+    "woodDesc": "Our expert carpentry team provides high-quality wood joinery services, creating custom solutions for industrial and commercial interior needs."
+  },
+  "Vision2030": {
+    "title": "Contributing to Shaping the Future of <highlight>Saudi Arabia.</highlight>",
+    "button": "View Details"
+  },
+    "Markets": {
+    "title": "Markets We Serve",
+    "description": "We provide tailored solutions and services across a diverse range of industries, helping businesses achieve growth and efficiency.",
+    "cities": {
+        "riyadh": "Riyadh",
+        "jeddah": "Jeddah",
+        "dammam": "Dammam",
+        "khobar": "Khobar",
+        "mecca": "Mecca",
+        "medina": "Medina"
+    }
+  },
+  "Partners": {
+    "badge": "Building strong relationships through quality <br /> and reliability.",
+    "title": "Our Satisfied Clients"
+  },
+  "Footer": {
+    "aboutTitle": "About 24 Seven",
+    "locationTitle": "We are Located In:",
+    "linksTitle": "Trusted Links",
+    "connectTitle": "Connect",
+    "license": "Certificates & License",
+    "faqs": "FAQs",
+    "address": "Building Number - 6906, Abdullah Al Hamdhani Street, Al Malaz Dist, Postal Code - 12836, Riyadh, Kingdom of Saudi Arabia",
+    "copyright": "Copyright © 2026-2027 24 Seven KSA. | Designed/Developed by",
+    "developer": "Tahir Ali",
+    "countries": {
+      "ksa": "KSA",
+      "uae": "UAE",
+      "usa": "USA",
+      "spain": "Spain"
+    }
+  },
+  "Portfolio": {
+    "heroTitle": "Projects Showcase",
+    "sectionTitle": "A Legacy of Quality Projects",
+    "sectionDesc": "Explore a selection of projects that highlight our expertise in steel fabrication, precision engineering, and high-quality construction solutions.",
+    "qualityTitle": "The Quality Behind Our Work",
+    "tags": {
+      "corporate": "Clean & Corporate",
+      "technical": "Strong & Technical",
+      "minimal": "Modern & Minimal",
+      "vision": "Vision 2030 Aligned",
+      "elegant": "Premium & Elegant"
+    },
+    "projects": {
+      "p1": "Large Scale Metal Fabrication",
+      "p2": "Premium Outdoor Seating",
+      "p3": "Steel Structural Project",
+      "p4": "Luxury Hospitality Furniture",
+      "p5": "Precision Engineering Showcase",
+      "p6": "Custom Woodwork Design"
+    }
+  },
+  "QuoteForm": {
+    "title": "Get Free Quote",
+    "subtitle_horizontal": "We will contact you within 45mins.",
+    "subtitle_vertical": "We will contact you within 30 mins.",
+    "label_name": "Name",
+    "placeholder_name": "Your Name",
+    "label_contact": "Contact Me",
+    "placeholder_contact": "Contact Number",
+    "button": "Get Free Quote"
+  },
+  "MetalLaserCutting": {
+    "heroTitle": "Metal Laser Cutting",
+    "sectionTitle": "Precision Cuts, Perfect Results – Laser Cutting That Brings Your Designs to Life.",
+    "description": "At 24 Seven Group, we offer high-precision metal laser cutting services using advanced CNC laser technology. Our solutions ensure clean edges, intricate detailing, and consistent accuracy across a wide range of metals.",
+    "techTitle": "Our Technical Capabilities:",
+    "techItems": [
+      "Mild Steel up to 25mm",
+      "Stainless Steel up to 20mm",
+      "Aluminum up to 12mm",
+      "High Speed & Accuracy"
+    ],
+    "portfolioTitle": "Innovation Portfolio",
+    "loadMore": "Load More",
+    "showLess": "Show Less"
+  },
+  "SteelFabrication": {
+    "heroTitle": "Steel Fabrication",
+    "sectionTitle": "Precision Engineering – Robust Steel Solutions for Large-Scale Projects",
+    "description": "At 24 Seven Group, we specialize in heavy-duty steel fabrication, providing structural integrity and high-quality finishes. From industrial frameworks to custom metal components, our engineering team ensures every project meets international safety and quality standards.",
+    "techTitle": "Our Technical Capabilities:",
+    "techItems": [
+      "Mild Steel up to 25mm",
+      "Stainless Steel up to 20mm",
+      "Aluminum up to 12mm",
+      "High Speed & Accuracy"
+    ],
+    "portfolioTitle": "Innovation Portfolio",
+    "loadMore": "Load More",
+    "showLess": "Show Less"
+  },
+  "MetalBending": {
+    "heroTitle": "Metal Bending",
+    "sectionTitle": "Metalworking machines shaping the future",
+    "desc1": "A metal bending machine is an essential piece of equipment used in metalworking to bend and shape metal sheets, bars, or pipes into desired angles and forms. These machines apply force through mechanical, hydraulic, or pneumatic systems to deform the metal without compromising its structural integrity.",
+    "desc2": "Common types include press brakes, roll benders, and folding machines, each suited for specific bending tasks and materials. Metal bending machines are widely used in industries such as construction, automotive, aerospace, and fabrication to produce components like brackets, enclosures, frames, and beams with high precision and repeatability.",
+    "techTitle": "Our Technical Capabilities:",
+    "techItems": [
+      "Mild Steel up to 25mm",
+      "Stainless Steel up to 20mm",
+      "Aluminum up to 12mm",
+      "High Speed & Accuracy"
+    ],
+    "portfolioTitle": "Innovation Portfolio",
+    "loadMore": "Load More",
+    "showLess": "Show Less"
+  },
+  "Woodery": {
+    "heroTitle": "Wood Joinery and Carpentry",
+    "sectionTitle": "Crafted to Endure - Expert Wood Joinery & Carpentry for Elegant Spaces",
+    "desc1": "At 24 Seven Group, we provide high-end wood joinery solutions that bring warmth and elegance to every environment. From custom furniture and interior fit-outs to structural timber work, we blend traditional craftsmanship with modern design.",
+    "desc2": "Our in-house carpentry experts work with various premium woods to create bespoke solutions for residential, corporate, and event spaces. We ensure that every joint, finish, and detail is executed with absolute precision and durability.",
+    "techTitle": "Our Technical Capabilities:",
+    "techItems": [
+      "Custom Furniture Fabrication",
+      "Interior Fit-out Solutions",
+      "CNC Wood Routing",
+      "Premium Finishing & Polishing"
+    ],
+    "portfolioTitle": "Innovation Portfolio",
+    "loadMore": "Load More",
+    "showLess": "Show Less"
+  },
+  "EventProduction": {
+    "heroTitle": "Event Production",
+    "sectionTitle": "Creating Impactful Spaces – Custom Fabrication – for Unforgettable Events",
+    "desc1": "At 24 Seven Group, we provide end-to-end events production solutions that bring creativity, structure, and precision to every event. From custom stage fabrication and exhibition stands to decorative elements and structural setups, we blend craftsmanship with functionality to deliver impact event environments.",
+    "desc2": "Our in-house capabilities in steel fabrication, wood joinery, and custom builds allow us to tailor each production to the unique vision and requirements of our clients. Whether for corporate events, exhibitions, weddings, or public activation's, we ensure seamless execution, timely delivery, and a visually stunning outcome.",
+    "techTitle": "Our Technical Capabilities:",
+    "techItems": [
+      "Mild Steel up to 25mm",
+      "Stainless Steel up to 20mm",
+      "Aluminum up to 12mm",
+      "High Speed & Accuracy"
+    ],
+    "portfolioTitle": "Innovation Portfolio",
+    "loadMore": "Load More",
+    "showLess": "Show Less"
+  },
+  "Reviews": {
+    "subTitle": "We love hearing from you. Here’s what our amazing customers are sharing about their journey with us",
+    "mainTitle": "Customer Reviews",
+    "items": [
+      {
+        "name": "Tahir Ali",
+        "location": "Riyadh",
+        "title": "Absolutely exceeded my expectations!",
+        "text": "The quality and attention to detail were incredible. I received my order faster than expected and everything was exactly as described. Highly recommend!"
+      },
+      {
+        "name": "Aliza Khatoon",
+        "location": "Riyadh",
+        "title": "Absolutely exceeded my expectations!",
+        "text": "The quality and attention to detail were incredible. I received my order faster than expected and everything was exactly as described. Highly recommend!"
+      }
+    ]
+  },
+  "Contact": {
+    "heroTitle": "Contact Us",
+    "tagline": "Reach out and our team will get back to you shortly",
+    "getInTouch": "Get in Touch",
+    "formTitle": "Fill the Form Below",
+    "formSubtitle": "We will contact you within 45mins.",
+    "labelName": "Name",
+    "labelEmail": "Email",
+    "labelService": "Service",
+    "labelMessage": "Message",
+    "placeholderName": "Your Name",
+    "placeholderEmail": "Your Email",
+    "placeholderMessage": "Your Message",
+    "chooseService": "Choose Service",
+    "submitBtn": "Get Free Quote",
+    "address": "Riyadh, Kingdom of Saudi Arabia",
+    "services": ["Laser Cutting", "Steel Fabrication", "CNC Bending"]
+  },
+  "Vision": {
+    "heroTitle": "Supporting Vision 2030",
+    "roleTitle": "24 Seven Steel Role",
+    "roleDesc": "24 Seven Steel Production plays a vital role in the Kingdom's transformation by delivering advanced steel fabrication, modern industrial solutions, and sustainable manufacturing that empower national mega-projects and economic growth.",
+    "commitmentTitle": "Our Commitment to",
+    "commitmentHighlight": "Vision 2030",
+    "commitmentPara1": "Saudi Vision 2030 is reshaping the Kingdom's economy, infrastructure, and industries. At 24 Seven Steel Production, we align our capabilities with this national transformation by providing high-quality steel solutions that support large-scale development, modernization, and diversification.",
+    "commitmentPara2": "We deliver precision-engineered steel products essential for creating the modern cities, industries, and infrastructure that Vision 2030 demands.",
+    "gridTitle": "How We Contribute to Vision 2030",
+    "items": [
+      {
+        "title": "Enabling National Mega Projects",
+        "desc": "We provide precision steel components essential for major infrastructure, industrial, and smart-city developments across the Kingdom."
+      },
+      {
+        "title": "Strengthening Local Manufacturing",
+        "desc": "By producing high-quality steel locally, we help increase national industrial capacity and reduce reliance on imported materials."
+      },
+      {
+        "title": "Advanced Technology & Precision",
+        "desc": "Our modern laser cutting, CNC bending, and fabrication systems deliver accuracy, efficiency, and world-class engineering quality."
+      },
+      {
+        "title": "Faster Project Delivery",
+        "desc": "Efficient production workflows and expert teams help contractors meet tight deadlines for Vision 2030 projects."
+      },
+      {
+        "title": "Sustainable Manufacturing",
+        "desc": "We support eco-friendly construction through recyclable steel solutions and low-waste fabrication practices."
+      },
+      {
+        "title": "Empowering the Saudi Workforce",
+        "desc": "We create jobs, train talent, and strengthen local skills in the steel and industrial sectors."
+      }
+    ]
+  },
+  "Certificates": {
+    "heroTitle": "Certificates & License",
+    "trustedTitle": "Trusted & Verified",
+    "trustedDesc": "At 24 Seven Steel Production, \"Trusted & Verified\" means more than just words — it reflects our commitment to precision, quality, and integrity in every project. We combine advanced steel-fabrication and metal-laser cutting technology with rigorous standards of workmanship and client satisfaction.",
+    "reliability": "Reliability",
+    "authenticity": "Authenticity",
+    "security": "Security",
+    "confidence": "Confidence",
+    "legalTitle": "Authentic Legal Documents",
+    "commLicense": "Commercial License",
+    "commDesc": "Issued by the Ministry of Commerce, Saudi Arabia, this license verifies that the company is officially registered and legally authorized to operate commercial activities.",
+    "details": "Details:",
+    "unifiedNo": "Unified National Number",
+    "issueDate": "Date of Issue",
+    "authority": "Authority",
+    "saudiMoC": "Ministry of Commerce, Kingdom of Saudi Arabia",
+    "verification": "Verification",
+    "qrCodeText": "Includes QR code for instant authenticity check",
+    "vatCertificate": "VAT Registration Certificate",
+    "vatDesc": "Issued by the Zakat, Tax and Customs Authority, Saudi Arabia, this certificate confirms that the company is officially registered for Value Added Tax (VAT) compliance.",
+    "certNo": "Certificate Number",
+    "vatNo": "VAT Registration Number",
+    "zakatAuthority": "Zakat, Tax and Customs Authority, Kingdom of Saudi Arabia"
+  },
+  "FAQ": {
+    "heroTitle": "Frequently Asked Questions",
+    "sectionTitle": "FAQ's",
+    "subTitle": "FAQ — What 24 Seven Steel answers for customers.",
+    "ctaTitle": "Have more questions?",
+    "ctaDesc": "Reach out to our expert team for a detailed consultation on your specific steel project needs.",
+    "ctaButton": "Contact Us",
+    "questions": [
+      {
+        "q": "Why choose 24 Seven Steel Production Company?",
+        "a": "They highlight \"uncompromising quality\" — every steel product is manufactured with precision, tested to meet international standards, ensuring strength, durability, and reliability."
+      },
+      {
+        "q": "What is the process for working with them?",
+        "a": "The process involves three main steps: 1. Reach out via their contact page (or call / email). 2. Specify your project type, scope, and preferred timeline. 3. Their team consults, plans, and executes the project accordingly."
+      },
+      {
+        "q": "Do they follow market / industry standards in production?",
+        "a": "Yes, every product is manufactured to meet rigorous international and local industry standards, ensuring top-tier safety and engineering quality for every client."
+      },
+      {
+        "q": "Why choose 24 Seven Steel Production Company?",
+        "a": "They highlight \"uncompromising quality\" — every steel product is manufactured with precision, tested to meet international standards, ensuring strength, durability, and reliability."
+      },
+      {
+        "q": "What is the process for working with them?",
+        "a": "The process involves three main steps: 1. Reach out via their contact page (or call / email). 2. Specify your project type, scope, and preferred timeline. 3. Their team consults, plans, and executes the project accordingly."
+      },
+      {
+        "q": "Do they follow market / industry standards in production?",
+        "a": "Yes, every product is manufactured to meet rigorous international and local industry standards, ensuring top-tier safety and engineering quality for every client."
+      }
+    ]
+  },
+  "WhatsApp": {
+    "tooltip": "Chat with us",
+    "message": "Hello 24 Seven Group, I would like to inquire about your services."
+  }
+}
