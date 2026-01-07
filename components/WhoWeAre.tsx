@@ -48,7 +48,7 @@ export default function WhoWeAre() {
         </div>
 
         {/* Right Side: Image - Taking 4 columns */}
-        <div className="md:col-span-n relative h-[350px] md:h-[400px] w-full rounded-3xl overflow-hidden">
+        <div className="md:col-span-4 relative h-[350px] md:h-[400px] w-full rounded-3xl overflow-hidden">
           <Image
             src="/who-we-are.png"
             alt="Steel fabrication at 24 Seven Group"
