@@ -1,10 +1,12 @@
 "use client";
+import { useState } from "react"; // 1. Import useState
 import Hero from "@/components/Hero";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, CheckCircle2, X } from "lucide-react";
 import { useTranslations, useLocale } from "next-intl";
-import { handleHeroForm } from "@/app/actions/formSubmit"; 
+import { handleHeroForm } from "@/app/actions/formSubmit";
 
 export default function ContactPage() {
+  const [showSuccess, setShowSuccess] = useState(false); // 2. Add state
   const t = useTranslations('Contact');
   const locale = useLocale();
   const isAr = locale === 'ar';
@@ -12,10 +14,9 @@ export default function ContactPage() {
   // Submission handler
   const clientAction = async (formData: FormData) => {
     await handleHeroForm(formData);
-    alert(isAr ? "شكراً لتواصلك معنا! سنتصل بك قريباً." : "Thank you! We will contact you soon.");
+    setShowSuccess(true); // 3. Change alert to setShowSuccess(true)
   };
 
-  // Define departments locally or move to your i18n JSON files
   const departments = isAr 
     ? ["ميكانيكي", "مبيعات", "استفسار عام", "شكوى"] 
     : ["Mechanical", "Sales", "General Inquiry", "Complaint"];
@@ -68,14 +69,13 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Department Field replaced the Service Field */}
               <div className="space-y-2">
                 <label className="text-white text-sm font-medium">
                    {isAr ? "القسم" : "Department"}
                 </label>
                 <div className="relative">
                   <select 
-                    name="service" // We keep 'service' name so it works with your current log logic
+                    name="service" 
                     required
                     className="w-full p-3 rounded-lg bg-white text-gray-900 outline-none focus:ring-2 focus:ring-red-600"
                   >
@@ -116,6 +116,9 @@ export default function ContactPage() {
         </div>
       </section>
 
+      {/* 4. Place Modal Here */}
+      <SuccessModal isOpen={showSuccess} onClose={() => setShowSuccess(false)} isAr={isAr} />
+
       <section className="bg-gray-50 py-12 px-6">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div className="flex flex-col items-center space-y-2">
@@ -133,5 +136,36 @@ export default function ContactPage() {
         </div>
       </section>
     </main>
+  );
+}
+
+// Sub-component for the Modal to keep the main code clean
+function SuccessModal({ isOpen, onClose, isAr }: { isOpen: boolean; onClose: () => void; isAr: boolean }) {
+  if (!isOpen) return null;
+
+  return (
+    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
+      <div className="bg-white rounded-3xl p-8 max-w-sm w-full shadow-2xl text-center relative animate-in zoom-in-95 duration-300">
+        <button onClick={onClose} className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition-colors">
+          <X size={24} />
+        </button>
+        <div className="flex justify-center mb-4">
+          <CheckCircle2 size={60} className="text-green-500 animate-bounce" />
+        </div>
+        <h3 className="text-2xl font-bold text-gray-900 mb-2">
+          {isAr ? "شكراً لك!" : "Thank You!"}
+        </h3>
+        <p className="text-gray-500 leading-relaxed mb-8">
+          {isAr 
+            ? "شكراً لاختياركم 24Seven Steel. فريقنا يراجع طلبكم الآن، وسنتواصل معكم قريباً." : "Thank you for choosing 24Seven Steel. Our team is reviewing your request, and will contact you shortly."}
+        </p>
+        <button
+          onClick={onClose}
+          className="w-full font-semibold py-3 rounded-xl transition-all active:scale-95 underline"
+        >
+          {isAr ? "حسناً" : "Great, thanks!"}
+        </button>
+      </div>
+    </div>
   );
 }
