@@ -57,7 +57,7 @@ export default function MetalBnding() {
 
           {/* Right Column: Form */}
           <div>
-            <FreeQuoteForm />
+            <FreeQuoteForm serviceSlug="Metal Bending" />
           </div>
         </div>
       </section>

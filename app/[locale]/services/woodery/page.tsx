@@ -57,7 +57,7 @@ export default function Woodery() {
 
           {/* Right Column: Form */}
           <div>
-            <FreeQuoteForm />
+            <FreeQuoteForm serviceSlug="Woodery" />
           </div>
         </div>
       </section>

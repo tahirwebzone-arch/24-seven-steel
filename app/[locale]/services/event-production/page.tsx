@@ -59,7 +59,7 @@ export default function EventProduction() {
 
           {/* Right: Sticky Form */}
           <div>
-            <FreeQuoteForm />
+            <FreeQuoteForm serviceSlug="Event Production" />
           </div>
         </div>
       </section>

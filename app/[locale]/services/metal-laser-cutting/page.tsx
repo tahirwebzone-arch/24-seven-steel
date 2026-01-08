@@ -52,7 +52,7 @@ export default function MetalLaserCutting() {
 
           {/* Right Column: Form */}
           <div>
-            <FreeQuoteForm />
+            <FreeQuoteForm serviceSlug="Metal Laser Cutting" />
           </div>
         </div>
       </section>

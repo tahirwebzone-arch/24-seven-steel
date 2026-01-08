@@ -54,7 +54,7 @@ export default function SteelFabrication() {
 
           {/* Right: Free Quote Form */}
           <div>
-            <FreeQuoteForm />
+            <FreeQuoteForm serviceSlug="Steel Fabrication" />
           </div>
         </div>
       </section>
