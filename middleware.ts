@@ -5,10 +5,14 @@ export default createMiddleware({
   locales: ['en', 'ar'],
  
   // Used when no locale matches
-  defaultLocale: 'en'
+  defaultLocale: 'en',
+
+  // 1. Add this line to stop the browser from forcing Arabic
+  localeDetection: false 
 });
  
 export const config = {
   // Match only internationalized pathnames
+  // 2. Ensure your matcher includes the root and all paths
   matcher: ['/', '/(ar|en)/:path*']
 };
